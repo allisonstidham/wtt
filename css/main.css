@@ -1,0 +1,294 @@
+body{
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'Chonburi', cursive;
+}
+
+h2 h3 h4 {
+  font-family: 'Patrick Hand', cursive;
+}
+
+h3 {
+  letter-spacing: 2px;
+}
+
+div{
+  margin: 0px;
+  padding: 0px;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  background: #ff2f63;
+  border: transparent;
+  padding: 8px 30px;
+  margin: 10px;
+}
+
+.btn-primary:hover {
+    background: #991c3b;
+}
+
+.text-alt {
+  color: white;
+}
+
+.container-fluid {
+  padding: 0px 0px;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* -- Navbar -- */
+
+.navbar {
+  max-height: 40px;
+  padding:10px 0px;
+}
+
+.img-holder {
+  position: relative;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.img-holder:after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(30, 0, 0, .2);
+  overflow: hidden;
+}
+
+.logo-holder {
+  object-fit: contain;
+  height:40px;
+}
+
+.logo-holder > img {
+  height:100%;
+  width: auto;
+}
+
+.nav-list {
+  justify-content: flex-end;
+}
+
+/* -- Hero Section -- */
+
+.row.hero {
+  max-height: 550px;
+  overflow: hidden;
+}
+
+.bg-holder {
+    position: relative;
+    width: 100%;
+    max-height: 550px;
+    overflow: hidden;
+}
+
+.bg-holder > img {
+  -webkit-filter: blur(3px);
+}
+
+.bg-holder:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(30, 0, 0, .2);
+}
+
+.bg-holder .hero-caption {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    z-index: 2;
+}
+
+.title-main {
+  font-size: 65px;
+  line-height: 1.25;
+
+}
+
+span.color-alt {
+    color: #991c3b;
+}
+
+.bg-holder.banner {
+    position: relative;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.bg-holder.banner:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(30, 0, 0, .5);
+}
+
+
+/* -- block tiles --*/
+
+
+.block-text {
+  margin: 0 -15px 0 0;
+  padding: 80px 80px;
+  line-height: 2em;
+  background: #ff2f63;
+  color: white;
+  height: 360px;
+}
+
+h3.block-text {
+  color: #991c3b;
+}
+
+.block-date {
+  margin: 0 0 0 -15px;
+  padding: 40px 120px;
+  background: #ffabc0;
+  height: 360px;
+  color: #991c3b;
+}
+
+.border {
+  border: solid 4px white;
+  border-radius: 5px;
+}
+
+h1.block-date-day{
+  font-size: 30px;
+}
+
+h4.block-date-month {
+  font-size: 25px;
+  padding-bottom: 15px;
+  border-bottom: dotted 1px white;
+}
+
+h1.block-date-date {
+  font-size: 70px;
+  padding: 0 0 20px 0;
+}
+
+/* -- timeline -- */
+
+.bg-fill {
+  background: #ffeaef;
+}
+
+.timeline {
+  list-style: none;
+  padding: 20px 0;
+  position: relative;
+}
+
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #fff;
+  left: 50%;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline-panel-left {
+  width: 50%;
+  float: left;
+  position: relative;
+  border-top: solid 2px #ffabc0;
+}
+
+.row.panel-text {
+  /*border: 1px solid #d4d4d4;*/
+  border-radius: 2px;
+  padding: 50px;
+  margin: 25px 60px;
+  position: relative;
+}
+
+.timeline-panel-right {
+  width: 50%;
+  float: right;
+  position: relative;
+  border-top: solid 2px #ffabc0;
+
+}
+
+.timeline-icon {
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: -36px;
+  left: 50%;
+  margin-left: -30px;
+  background-color: #ff2f63;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+li.panel-2 {
+  margin-top: 275px;
+}
+
+li.panel-3 {
+    margin-top: 550px;
+}
+
+li.panel-4 {
+    margin-top: 825px;
+}
+
+li.panel-5 {
+  margin-top: 1350px;
+  margin-bottom: -30px;
+}
+
+/* -- RSVP -- */
+
+.bg-holder .banner-caption {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    z-index: 2;
+}
